@@ -1,8 +1,201 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(223, 244, 250);
   }
 
-  body{max-width: 960px;
-margin-left: auto;
-margin: auto;
+  body{
+    max-width: 960px;
+    margin-left: auto;
+    margin: auto;
+}
+
+@import "templatecolours.css";
+
+body{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  background-color: rgb(219, 217, 230);
+
+}
+
+header{
+  background-color: rgb(229, 235, 205);
+}
+
+section{
+  background-color: whitesmoke;
+}
+
+aside{
+  background-color:white;
+}
+article{
+  background-color: rgb(199, 144, 199);
+}
+
+/* navigation bar css*/
+
+nav>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15;
+  overflow: hidden;
+}
+
+
+
+nav>ul>li{
+
+float: left;
+}
+
+nav>ul>li a {
+
+  display: block;
+  color: #761e91;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+ 
+li a:hover {
+  color: #363636;
+ 
+}
+  
+
+/* image sizing css*/
+ #csdmlogo
+ {
+  width: 900px;
+  height: 200px;
+  
+ }
+
+ #banner{
+  width: 900px;
+  height: 300px;
+
+ }
+
+ #hos{
+  width: 200px;
+  float: left;
+  padding-right: 10px;
+ }
+
+ /* colouring */
+
+ #news{
+  background-color: #dbc9df;
+ }
+
+ #events{
+  background-color: #782a7e;
+ }
+
+ #footer{
+  background-color: #363636;
+ }
+
+ aside p,h3,h4{
+  color: white;
+ }
+
+ /* margin fixes */
+ aside p,h3,h4{
+  margin: 0;
+ }
+
+ aside h3{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+
+ aside h4{
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+
+ aside p{
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+
+ aside {
+  padding-right: 0px !important;
+  margin-top: -5px !important;
+ }
+
+ main{
+  padding-right: 0px !important;
+ }
+
+
+ /* font size */
+
+ h1 {
+  font-size: 20px;
+
+ }
+
+ h2 {
+  font-size: 18px;
+  
+ }
+
+ h3 {
+  font-size: 16px;
+  color: black;
+  
+ }
+
+ h4 {
+  font-size: 14px;
+  
+ }
+
+ p {
+  font-size: 13px;
+  
+ }
+
+ a {
+  font-size: 13px;
+  
+ }
+
+
+ /* footer */
+
+ footer>p{
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(243, 66, 66);
+ }
+
+ .imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5;
+  width: 900px;
+  height: 300px;
+}
+
+.imgcenter2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 100px;
 }
